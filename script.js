@@ -11,12 +11,12 @@ const size = [51, 36];
 const jump = -9.5;
 const cTenth = canvas.width / 10;
 
-let index = 0;
-let bestScore = 0;
-let flight = O;
-let flyHeight = 0;
-let currentScore = 0;
-let pipe = 0;
+let index = 0,
+    bestScore = 0,
+    flight,
+    flyHeight,
+    currentScore,
+    pipe;
 
 // pipe settings
 const pipeWidth = 78;
